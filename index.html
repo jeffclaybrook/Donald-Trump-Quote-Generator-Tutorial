@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donald Trump Quote Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="widget">
+        <div class="header">
+            <h1 id="quote"></h1>
+            <h5 id="source"></h5>
+        </div>
+        <div class="footer">
+            <button class="icon-btn" onclick="playQuote()"><i class="play-icon"></i></button>
+            <button class="icon-btn" onclick="copyQuote()"><i class="copy-icon"></i></button>
+            <button class="load-btn" onclick="loadQuote()">Generate Quote</button>
+        </div>
+    </div>
+    <aside id="toast">Copied!</aside>
+    <script src="script.js"></script>
+</body>
+</html>
